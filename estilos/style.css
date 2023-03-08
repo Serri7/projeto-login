@@ -32,12 +32,16 @@ section#login{
     border-radius: 20px ;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 section#login > div#imagem{
     display: block;
     background: #5f2c82 url(../imagens/pattern.jpg) no-repeat ;
-    background-size: cover;
+    background-size: 200%;
     height: 200px;    
+    background-position: bottom left;
     
 }
 section#login > div#formulario{
